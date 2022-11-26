@@ -259,7 +259,7 @@ args:
 | labels | no | Allow additional Docker labels as a dictionary.
 | codenotary | no | Enable container signature with codenotary CAS.
 | codenotary.signer | no | Owner signer E-Mail address for this image.
-| codenotary.base_image | no | Verify the base container image. If you use our official images, use `notary@home-assistant.io`
+| codenotary.base_image | no | Verify the base container image. If you use our official images, use `codenotary@frenck.dev`
 
 We provide a set of [base images][docker-base] which should cover a lot of needs. If you don't want to use the Alpine based version or need a specific image tag, feel free to pin this requirement for your build with the `build_from` option.
 
